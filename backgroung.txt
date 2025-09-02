@@ -1,0 +1,11 @@
+
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+      {/* 3D Stars Background */}
+      <LazyStarsBackground />
+
+      {/* Floating Particles */}
+      <FloatingParticles />
+
+      {/* Background Gradient Overlay */}
+      <div className="absolute inset-0 bg-gradient-to-br from-lavender/10 via-transparent to-teal/10" />
+    </section>
