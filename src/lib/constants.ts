@@ -6,7 +6,7 @@ export const SITE_CONFIG = {
   url: "https://nikhilakoneru.com",
   ogImage: "/images/nikhila/og-image.png",
   links: {
-    email: "nikhila.koneru1@gmail.com",
+    email: "ydwivedi794@gmail.com",
     github: "https://github.com/Nikhilakoneru",
     linkedin: "https://linkedin.com/in/nikhila-koneru",
     phone: "+1 2073320512"
@@ -18,7 +18,6 @@ export const NAV_ITEMS = [
   { label: "About", href: "/about" },
   { label: "Experience", href: "/experience" },
   { label: "Projects", href: "/projects" },
-  { label: "Blog", href: "/blog" },
   { label: "Contact", href: "/contact" }
 ];
 
