@@ -68,5 +68,21 @@ export const projects: Project[] = [
     githubUrl: "https://github.com/Yash-1001/YouTube-Speed-Controller-Chrome-Extension",
     category: "web"
   },
- 
+ {
+    id: "chatapp",
+    title: "Chat Application | Basic web app using websockets",
+    description: "A real-time chat app built with PHP, WebSockets, and MySQL for fast multi-user messaging.",
+    longDescription: "This real-time chat app, built with PHP and WebSockets, delivers fast and responsive messaging across multiple users, backed by MySQL for data storage. Designed with Bootstrap-responsive UI.",
+    technologies: ["PHP", "PostgreSql", "Tailwind CSS", "Websockets", "Javascript"],
+    features: [
+      "Real-time messaging",
+      "Multi-user support",
+      "Responsive UI",
+      "User authentication",
+      "Chat history storage",
+    ],
+    image: "/images/projects/chatapp/chatapp.png",    
+    githubUrl: "https://github.com/Yash-1001/chat_application",
+    category: "web"
+  },
 ];
