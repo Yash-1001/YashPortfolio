@@ -7,8 +7,8 @@ export const SITE_CONFIG = {
   ogImage: "/images/nikhila/og-image.png",
   links: {
     email: "ydwivedi794@gmail.com",
-    github: "https://github.com/Nikhilakoneru",
-    linkedin: "https://linkedin.com/in/nikhila-koneru",
+    github: "https://github.com/Yash-1001",
+    linkedin: "https://www.linkedin.com/in/yash-dwivedi1001/",
     phone: "+1 2073320512"
   }
 };
