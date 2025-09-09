@@ -10,7 +10,7 @@ export interface Project {
   image: string;
   demoUrl?: string;
   githubUrl?: string;
-  category: "mobile" | "web" | "blockchain" | "ai";
+  category:  "web" | "devops" ;
 }
 
 export const projects: Project[] = [
@@ -31,7 +31,7 @@ export const projects: Project[] = [
     image: "/images/projects/portfolio/portfolio.png",
     githubUrl: "https://github.com/Yash-1001/GenPix-AI",
     demoUrl: "https://genpix-ai-frontend.onrender.com/",
-    category: "blockchain"
+    category: "devops"
   },
   {
     id: "imagegenerator",

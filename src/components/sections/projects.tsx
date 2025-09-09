@@ -26,10 +26,9 @@ export function Projects() {
 
   const categories = [
     { value: "all", label: "All Projects" },
-    { value: "mobile", label: "Mobile" },
     { value: "web", label: "Web" },
-    { value: "blockchain", label: "Blockchain" },
-    { value: "ai", label: "AI" },
+    { value: "devops", label: "Devops" },
+
   ];
 
   return (
