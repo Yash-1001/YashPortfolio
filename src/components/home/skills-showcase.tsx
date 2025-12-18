@@ -1,5 +1,5 @@
 "use client";
-
+import "./autoslider.css";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
@@ -8,13 +8,71 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { TiltCard, MagneticButton } from "@/components/animations";
+import { Skills } from "@/components/sections";
 
 export function SkillsShowcase() {
-  // Get top skills from first 3 categories for homepage display
-  const showcaseSkills = skillsData.slice(0, 3).map(category => ({
-    ...category,
-    skills: category.skills.slice(0, 4)
-  }));
+  const AutoSlider = () => {
+    return (
+      <div className="slider">
+        <div className="slide-track">
+          <div className="slide">
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png"
+              height="100"
+              width="250"
+              alt=""
+            />
+          </div>
+
+          <div className="slide">
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png"
+              height="100"
+              width="250"
+              alt=""
+            />
+          </div>
+
+          <div className="slide">
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png"
+              height="100"
+              width="250"
+              alt=""
+            />
+          </div>
+
+          <div className="slide">
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png"
+              height="100"
+              width="250"
+              alt=""
+            />
+          </div>
+
+          {/* duplicate slides for infinite loop */}
+          <div className="slide">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" height="100" width="250" alt="" />
+          </div>
+          <div className="slide">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" height="100" width="250" alt="" />
+          </div>
+          <div className="slide">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="100" width="250" alt="" />
+          </div>
+          <div className="slide">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height="100" width="250" alt="" />
+          </div>
+        </div>
+      </div>
+    );
+  };
+
+
+
+
+
 
   return (
     <section className="py-20 bg-muted/50">
@@ -32,58 +90,18 @@ export function SkillsShowcase() {
           </p>
         </motion.div>
 
-        <div className="grid gap-6 md:grid-cols-3 mb-12 max-w-6xl mx-auto">
-          {showcaseSkills.map((category, categoryIndex) => (
-            <motion.div
-              key={category.title}
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.5, delay: categoryIndex * 0.1 }}
-            >
-              <TiltCard className="h-full">
-                <Card className="h-full hover:shadow-lg transition-all duration-300 border-border/50 hover:border-lavender/50">
-                  <CardHeader className="pb-3">
-                    <div className="flex items-center justify-between">
-                      <div className="flex items-center gap-2">
-                        <span className="text-2xl">{category.icon}</span>
-                        <CardTitle className="text-lg">{category.title}</CardTitle>
-                      </div>
-                      <Badge variant="outline" className="text-xs border-lavender/50 badge-lavender-outline">
-                        {category.skills.length}+
-                      </Badge>
-                    </div>
-                  </CardHeader>
-                  <CardContent>
-                    <div className="space-y-3">
-                      {category.skills.map((skill) => (
-                        <div key={skill.name} className="space-y-1.5">
-                          <div className="flex justify-between items-center text-sm">
-                            <span className="font-medium">{skill.name}</span>
-                            <span className="text-xs text-muted-foreground">{skill.level}%</span>
-                          </div>
-                          <div className="h-2 bg-muted rounded-full overflow-hidden">
-                            <motion.div
-                              className="h-full bg-gradient-to-r from-lavender to-teal rounded-full"
-                              initial={{ width: 0 }}
-                              whileInView={{ width: `${skill.level}%` }}
-                              viewport={{ once: true }}
-                              transition={{
-                                duration: 1,
-                                delay: categoryIndex * 0.1 + 0.1,
-                                ease: "easeOut"
-                              }}
-                            />
-                          </div>
-                        </div>
-                      ))}
-                    </div>
-                  </CardContent>
-                </Card>
-              </TiltCard>
-            </motion.div>
-          ))}
+        <AutoSlider />
+        <div className="mt-4">
+                  <AutoSlider />
+
         </div>
+
+          <div className="mt-4">
+                  <AutoSlider />
+
+        </div>
+
+
 
         <motion.div
           initial={{ opacity: 0 }}
@@ -92,7 +110,7 @@ export function SkillsShowcase() {
           transition={{ duration: 0.5, delay: 0.4 }}
           className="text-center"
         >
-          <p className="text-muted-foreground mb-6">
+          <p className="text-muted-foreground mb-6 mt-4">
             Also proficient in Git, REST APIs, GraphQL, Agile methodologies, and more
           </p>
           <MagneticButton>

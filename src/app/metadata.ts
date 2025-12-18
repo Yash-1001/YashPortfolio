@@ -14,8 +14,6 @@ export const generateMetadata = (): Metadata => {
       "Portfolio",
       "Full Stack Developer",
       "Cloud Computing",
-      "Northeastern University",
-      "Computer Science",
       "React",
       "Next.js",
       "TypeScript",

@@ -15,7 +15,7 @@ export function Footer() {
               Yash Dwivedi
             </h3>
             <p className="text-sm text-muted-foreground">
-              Master&apos;s in Computer Science student passionate about cloud computing,
+              Bachelor&apos;s in Electrical Engineering, student passionate about DevOps,
               full-stack development, and emerging technologies.
             </p>
           </div>
@@ -41,8 +41,7 @@ export function Footer() {
             <div className="flex flex-col space-y-2">
               <a
                 href={`mailto:${SITE_CONFIG.links.email}`}
-                className="flex items-center space-x-2 text-sm text-muted-foreground hover:text-primary transition-colors"
-              >
+                className="flex items-center space-x-2 text-sm text-muted-foreground hover:text-primary transition-colors">
                 <Mail className="h-4 w-4" />
                 <span>Email</span>
               </a>

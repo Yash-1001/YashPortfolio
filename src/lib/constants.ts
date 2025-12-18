@@ -2,14 +2,14 @@
 
 export const SITE_CONFIG = {
   name: "Yash Dwivedi",
-  description: "Master's in Computer Science student at Northeastern University | Full-stack Developer | Cloud Computing Enthusiast",
+  description: "Bachelors's in Electrical Engineering | DevOps Enthusiast | Full-stack Developer ",
   url: "https://nikhilakoneru.com",
   ogImage: "/images/nikhila/og-image.png",
   links: {
     email: "ydwivedi794@gmail.com",
     github: "https://github.com/Yash-1001",
     linkedin: "https://www.linkedin.com/in/yash-dwivedi1001/",
-    phone: "+1 2073320512"
+    phone: "+91 9936323207"
   }
 };
 
