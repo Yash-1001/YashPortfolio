@@ -20,10 +20,7 @@ export function Achievements() {
           <h2 className="text-4xl md:text-5xl font-display font-bold mb-4">
             Leadership & <span className="gradient-text">Achievements</span>
           </h2>
-          <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            Making a positive impact through mentorship and technical leadership
-            in the developer community.
-          </p>
+         
         </motion.div>
 
         {/* Achievements Cards */}
@@ -71,30 +68,7 @@ export function Achievements() {
         </div>
 
         {/* Additional Stats */}
-        <motion.div
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true }}
-          variants={ANIMATION_VARIANTS.fadeUp}
-          transition={{ delay: 0.4 }}
-          className="mt-12 grid grid-cols-3 gap-4 text-center"
-        >
-          <div className="p-6 rounded-lg bg-primary/5 border border-primary/20">
-            <Users className="h-8 w-8 text-primary mx-auto mb-2" />
-            <p className="text-3xl font-bold gradient-text">15+</p>
-            <p className="text-sm text-muted-foreground">Developers Mentored</p>
-          </div>
-          <div className="p-6 rounded-lg bg-primary/5 border border-primary/20">
-            <TrendingUp className="h-8 w-8 text-primary mx-auto mb-2" />
-            <p className="text-3xl font-bold gradient-text">60%</p>
-            <p className="text-sm text-muted-foreground">Skill Improvement</p>
-          </div>
-          <div className="p-6 rounded-lg bg-primary/5 border border-primary/20">
-            <Award className="h-8 w-8 text-primary mx-auto mb-2" />
-            <p className="text-3xl font-bold gradient-text">30%</p>
-            <p className="text-sm text-muted-foreground">Performance Boost</p>
-          </div>
-        </motion.div>
+        
       </div>
     </section>
   );

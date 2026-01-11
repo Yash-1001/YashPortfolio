@@ -7,27 +7,28 @@ import { Card, CardContent } from "@/components/ui/card";
 const achievements = [
   {
     icon: Award,
-    title: "Board Member",
-    description: "Council for Undergraduate Research Excellence",
-    metric: "2022-2024"
+    title: "Placement Coordinator",
+    description: "Training and Placement Cell",
+    metric: "July 2024-Dec 2025"
   },
-  {
-    icon: Users,
-    title: "Students Mentored",
-    description: "Guided undergrad students in research",
-    metric: "50+"
+   {
+    icon: Award,
+    title: "Placement Manager",
+    description: "Training and Placement Cell",
+    metric: "Jan 2025-Present"
   },
+  
   {
     icon: Target,
     title: "Projects Completed",
-    description: "Full-stack and cloud computing projects",
-    metric: "15+"
+    description: "Web Based and Devops projects",
+    metric: "8+"
   },
   {
     icon: Briefcase,
     title: "Work Experience",
-    description: "Professional software development",
-    metric: "2+ Years"
+    description: "Software development",
+    metric: "1+ Years"
   }
 ];
 

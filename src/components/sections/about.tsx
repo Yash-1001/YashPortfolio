@@ -4,8 +4,8 @@ import { motion } from "framer-motion";
 import { ANIMATION_VARIANTS } from "@/lib/constants";
 import { educationData } from "@/data/achievements";
 import { GraduationCap, MapPin, Calendar } from "lucide-react";
-import { 
-  ScrollReveal, 
+import {
+  ScrollReveal,
   GradientText
 } from "@/components/animations";
 
@@ -27,7 +27,7 @@ export function About() {
             </h2>
             <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
               Passionate about building innovative solutions at the intersection of
-              cloud computing, full-stack development, and emerging technologies.
+              Devops, full-stack development, and emerging technologies.
             </p>
           </motion.div>
         </ScrollReveal>
@@ -43,24 +43,12 @@ export function About() {
         >          <div className="grid md:grid-cols-2 gap-8 items-center">
             <div className="space-y-4">
               <p className="text-lg leading-relaxed">
-                Hi! I&apos;m Yash Dwivedi, currently pursuing my Master&apos;s in Computer Science
-                at Northeastern University. With a strong foundation in cloud computing
-                and full-stack development, I love creating impactful solutions that make
-                a difference.
+               
+                Hi, I&apos;m Yash Dwivedi, a Master&apos;s student in Electrical Engineering at SGSITS, Indore. I have a strong foundation in DevOps and Web Development, and I enjoy building impactful, real-world solutions. I&apos;m continuously exploring and learning new technologies to improve my skills and create meaningful digital experiences.
               </p>
-              <p className="text-lg leading-relaxed">
-                During my internship at Tech Mahindra, I optimized deployment pipelines
-                achieving a 30% performance boost and implemented automation strategies
-                that reduced manual intervention by 40%. I&apos;m passionate about leveraging
-                technology to solve real-world problems.
-              </p>
-              <p className="text-lg leading-relaxed">
-                As a Board Member of the App Design and Development Club, I&apos;ve mentored
-                15+ junior developers, helping them improve their programming skills by 60%
-                through workshops and hands-on training.
-              </p>
+              
             </div>
-            
+
             {/* Education Cards */}
             <div className="space-y-4">
               {educationData.map((edu, index) => (
@@ -95,10 +83,13 @@ export function About() {
                         </p>
                       )}
                     </div>
+                    
                   </div>
+                  
                 </motion.div>
               ))}
             </div>
+            
           </div>
         </motion.div>
       </div>

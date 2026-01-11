@@ -39,8 +39,7 @@ export function Skills() {
             Technical <span className="gradient-text">Skills</span>
           </h2>
           <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
-            A comprehensive toolkit spanning cloud computing, full-stack development,
-            machine learning, and blockchain technologies. Continuously learning and adapting to new technologies.
+            A focused skill set in web development and DevOps, dedicated to building scalable applications and efficient deployment pipelines while continuously learning new technologies.
           </p>
         </motion.div>
 
@@ -142,7 +141,7 @@ export function Skills() {
           className="mt-12 text-center"
         >
           <p className="text-sm text-muted-foreground">
-            Also experienced with: Git, REST APIs, GraphQL, Agile/Scrum, Unit Testing, CI/CD, 
+            Also experienced with: Git, REST APIs, Unit Testing, CI/CD, 
             System Design, and Technical Documentation
           </p>
         </motion.div>
