@@ -87,8 +87,8 @@ export function Contact() {
             <div>
               <h3 className="text-2xl font-semibold mb-6">Let&apos;s Connect</h3>
               <p className="text-muted-foreground mb-8">
-                I&apos;m currently pursuing my Master&apos;s at Northeastern University and
-                actively seeking opportunities in cloud computing, full-stack development,
+                I&apos;m currently pursuing my Bachelor&apos;s at SGSITS, Indore and
+                actively seeking opportunities in Devops, Web development,
                 and emerging technologies.
               </p>
             </div>

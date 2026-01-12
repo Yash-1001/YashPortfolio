@@ -46,8 +46,7 @@ export function Projects() {
             Featured <span className="gradient-text">Projects</span>
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            Showcasing innovative solutions from mobile apps to blockchain
-            implementations, each project demonstrates real-world impact.
+            Showcasing innovative solutions, each project demonstrates real-world impact.
           </p>
         </motion.div>
 

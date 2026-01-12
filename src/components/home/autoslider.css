@@ -65,3 +65,12 @@ body {
   justify-content: center;
    flex-shrink: 0;
 }
+
+/* Constrain inline SVGs used inside slides so they fit the container */
+.slide svg {
+  width: 64px;
+  height: 64px;
+  max-width: 80%;
+  max-height: 80%;
+  display: block;
+}

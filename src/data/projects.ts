@@ -1,4 +1,4 @@
-// Projects data from Nikhila's portfolio
+
 
 export interface Project {
   id: string;

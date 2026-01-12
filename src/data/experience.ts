@@ -16,51 +16,34 @@ export interface Experience {
 export const experienceData: Experience[] = [
   {
     id: "tech-mahindra",
-    company: "Tech Mahindra Limited",
-    role: "Cloud Computing Intern",
-    duration: "Feb 2024 - Jul 2024",
-    location: "Hyderabad, India",
-    description: "Worked on optimizing cloud infrastructure and implementing automation strategies across multi-cloud environments.",
+    company: "Almanet Professional Services",
+    role: "Software Development Intern",
+    duration: "May 2025 - Jul 2025",
+    location: "Remote",
+    description: "Worked on client problem analysis and developed tailored web applications to address business requirements.",
     achievements: [
-      "Accomplished 30% performance boost in deployment pipelines, as measured by CI/CD job execution time, by optimizing cloud infrastructure across Azure and AWS",
-      "Improved resource allocation by 25%, as verified by monitoring dashboards, by implementing infrastructure-as-code strategies and cost-optimization techniques",
-      "Automated task workflows across multi-cloud environments, reducing manual intervention by 40%, by scripting repeatable deployments using Azure CLI and AWS SDK"
+      "Built a PHP web app to convert 1,000+ JSON files to CSV/Excel, cutting manual work by 70%.",
+      "Developed a secure Django application using Adobe PDF Services API to automate 500+ PDF-to-Excel conversions monthly.",
+      "Deployed an internal web platform with authentication, ensuring restricted access for authorized employees only."
     ],
-    technologies: ["AWS", "Azure", "CI/CD", "Infrastructure as Code", "Azure CLI", "AWS SDK", "Cloud Computing", "DevOps"],
+    technologies: ["PHP", "Python", "Web Development", "Deployment"],
     logo: "/images/logos/tech-mahindra.png",
     type: "internship"
   },
   {
     id: "srm-ml-intern",
-    company: "SRM University, AP",
-    role: "ML Research Intern - Distributed Systems",
-    duration: "Jan 2024 - Jun 2024",
-    location: "Andhra Pradesh, India",
-    description: "Designed AI-powered caching system using machine learning models to optimize data retrieval in distributed systems.",
+    company: "Salesqueen Software Solutions",
+    role: "Software Testing Intern",
+    duration: "Feb 2025 - March 2025",
+    location: "Remote",
+    description: "Conducted manual testing across multiple projects, identifying defects and improving overall software quality.",
     achievements: [
-      "Designed AI-powered caching system using CNN & MLP models, reducing data retrieval latency by 23%",
-      "Applied association rule mining and sequence mining techniques, accelerating query response time by 25%",
-      "Developed pattern recognition algorithms with Keras/TensorFlow, increasing cache hit rate by 35%"
+      "Worked on quality assurance processes, executing 50+ manual test cases, leading to a 25% reduction in post-release defects.",
+      "Assisted in debugging and reporting critical bugs, contributing to a 30% faster bug resolution rate."
     ],
-    technologies: ["Python", "TensorFlow", "Keras", "CNN", "MLP", "Machine Learning", "Distributed Systems", "Data Mining", "Pattern Recognition"],
+    technologies: ["HTML", "CSS", "Tailwind", "Git", "JavaScript"],
     logo: "/images/logos/srm-university.png",
     type: "internship"
-  },
-  {
-    id: "research-intern-prediction",
-    company: "Associate Dean Professor T Ragunathan",
-    role: "Research Intern | Higher Education Prediction Algorithm",
-    duration: "Jul 2022 - Sep 2022",
-    location: "Guntur, Andhra Pradesh, India",
-    description: "Built ML classification model for higher education admission prediction, processing large-scale student data to identify key admission factors.",
-    achievements: [
-      "Built ML classification model using Naive Bayes & KNN algorithms, achieving 78% prediction accuracy",
-      "Processed 10,000+ student records, identifying key admission factors: CGPA, GRE, TOEFL scores",
-      "Reduced data preprocessing time by 40% through automated cleaning and feature engineering",
-      "Delivered predictive insights helping 200+ students optimize college application strategies"
-    ],
-    technologies: ["Classification", "MATLAB", "Machine Learning", "Naive Bayes", "KNN", "Data Preprocessing", "Feature Engineering", "Statistical Analysis"],
-    logo: "/images/logos/research.png",
-    type: "part-time"
   }
+ 
 ];

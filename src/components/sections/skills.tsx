@@ -141,7 +141,7 @@ export function Skills() {
           className="mt-12 text-center"
         >
           <p className="text-sm text-muted-foreground">
-            Also experienced with: Git, REST APIs, Unit Testing, CI/CD, 
+            Also experienced with: Git, REST APIs, GraphQL, Agile/Scrum, Unit Testing, CI/CD, 
             System Design, and Technical Documentation
           </p>
         </motion.div>
