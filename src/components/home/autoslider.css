@@ -15,7 +15,7 @@ body {
 
 /* Slider container */
 .slider {
-  background: rgb(213, 179, 179);
+  background: #1c222b;
   box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
   height: 100px;
   margin: auto;
